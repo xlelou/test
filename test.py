@@ -9,7 +9,6 @@ group = bot.groups().search('a')[0]
 @bot.register(chats=Friend,except_self=True, run_async=True, enabled=True)
 def reply_my_friend(msg):
     if msg.type == 'FRIENDS':
-        print (1)
         new_friend = msg.card.accept()
         new_friend.send('哈哈哈，就知道你会加我为好友！回复 "aaa" 可以加群啊')
     else:
