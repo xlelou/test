@@ -118,7 +118,7 @@ def group_reply_media(msg):
 
  # 扫二维码登录
 # itchat.auto_login(hotReload=True, loginCallback=lc, exitCallback=ec)
-itchat.auto_login()
+itchat.auto_login(hotReload=True, loginCallback=lc, exitCallback=ec)
 
 # 音乐控制
 # itchat.send(HELP_MSG, 'filehelper') 
