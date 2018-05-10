@@ -4,9 +4,9 @@ from itchat.content import *
 from pymongo import MongoClient
 import os
 
-client = MongoClient("mongodb://xlelou:wx123456.@localhost:17117/")
+client = MongoClient("mongodb://xlelou:wx123456.@localhost:17117/wx")
 # print (time.strftime("%Y-%m-%d"))
-wx = client.wx
+# wx = client.wx
 collectionName = time.strftime("%Y-%m-%d")
 
 collection = wx[collectionName]
