@@ -4,7 +4,7 @@ from itchat.content import *
 from pymongo import MongoClient
 import os
 
-client = MongoClient("mongodb://localhost:17017/")
+client = MongoClient("mongodb://localhost:17117/")
 # print (time.strftime("%Y-%m-%d"))
 wx = client.wx
 collectionName = time.strftime("%Y-%m-%d")
