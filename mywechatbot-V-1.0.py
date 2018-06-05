@@ -7,12 +7,12 @@ import os,json
 import datetime
 
 
-# host = '115.28.106.252'
+# host = ''
 # client = MongoClient(host)
-# client.wx.authenticate("xlelou", "wx123456.", mechanism='MONGODB-CR')
+# client.wx.authenticate("xlelou", "", mechanism='MONGODB-CR')
 # db = client["wx"]
 # collection = db["acol"]
-KEY = 'ea794b8d4619440699c754179780e752'
+KEY = ''
 
 def get_response(msg):
     # 这里我们就像在“3. 实现最简单的与图灵机器人的交互”中做的一样
